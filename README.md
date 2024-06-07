@@ -1,4 +1,6 @@
 Authentication App
+
+
 This project is a simple authentication application with login, register, and logout functionalities. It is built using React and Context API to manage user authentication state.
 
 Features
