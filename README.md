@@ -8,16 +8,23 @@ Technologies Used
 Frontend
 
 React: A JavaScript library for building user interfaces.
+
+SCSS
+
 Context API: A React feature for state management.
-Local Storage: A web storage mechanism to store user session data.
+
 
 Backend
 
 Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+
 Express: A minimal and flexible Node.js web application framework.
-MongoDB: A NoSQL database for storing user data.
-Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js.
+
+Prima : ORM to establish connection between mySQL 
+
 JWT: JSON Web Tokens for user authentication. 
+
+
 
 Instructions to Successfully run the Application 
 
@@ -38,6 +45,5 @@ made with respect to mySql as database ( You can shift to your desired one just 
 
 -Keep in mind to perform the operation ( npx prisma db pull ) whenever you make any change in the schema 
 
-
-
+-as we are using axios to send req to the backend keep in mind to add proxy of the backend URL 
 
